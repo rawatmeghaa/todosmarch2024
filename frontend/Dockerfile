@@ -33,7 +33,7 @@ COPY . .
 # Change ownership to appuser
 RUN chown -R appuser:appgroup /app
 
-# Switch to non-root user
+# Switch to non-root user as appuser
 USER appuser
 
 EXPOSE 3000
