@@ -11,7 +11,7 @@ USER appuser
 
 RUN npm install
 
-# Copy all source files to builder stage
+# Copy all source files to builder stage master 
 COPY . .
 
 FROM node:18-slim
