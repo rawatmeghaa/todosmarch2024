@@ -11,7 +11,11 @@ USER appuser
 
 RUN npm install
 
+<<<<<<< HEAD
 # Copy all source files to builder stage master 
+=======
+# Copy all source files to builder stage in megha 
+>>>>>>> 7be40da (adding megha in megha)
 COPY . .
 
 FROM node:18-slim
